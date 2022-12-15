@@ -109,9 +109,12 @@ body {
 
 .auto__list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 50px;
   align-items: center;
+  max-width: 1400px;
+  margin: auto;
+  overflow-x: scroll;
 }
 .auto__item {
   display: flex;
@@ -122,6 +125,7 @@ body {
   background-image: url(./../img/auto-bg.png);
   background-repeat: no-repeat;
   background-position: right center;
+  padding-right: 150px;
 }
 .auto__info {
   display: flex;
